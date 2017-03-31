@@ -1,5 +1,6 @@
 {
   "name": "gulp-ali-oss",
+  "version": "v0.1.0",
   "devDependencies": {
     "ali-cdn-sdk": "^1.1.0",
     "aliyun-sdk": "^1.9.22",
