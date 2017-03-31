@@ -13,11 +13,11 @@ const PLUGIN_NAME = 'gulp-oss';
 
 const oss = function (options) {
   const version = moment().format('YYMMDDHHmm');
-  if (!option) {
-    throw new PluginError(PLUGIN_NAME, 'Missing option!');
+  if (!options) {
+    throw new PluginError(PLUGIN_NAME, 'Missing options!');
   }
-  if (!option.bucket) {
-    throw new PluginError(PLUGIN_NAME, 'Missing option.bucket!');
+  if (!options.bucket) {
+    throw new PluginError(PLUGIN_NAME, 'Missing options.bucket!');
   }
   return es.map(function (file, finished) {
     if (!file.isBuffer()) {
